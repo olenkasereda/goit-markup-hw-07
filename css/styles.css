@@ -54,12 +54,12 @@ img {
 /*  */
 /* header */
 .header-section {
-	border-bottom: 1px solid #ececec;
-	align-items: center;
 }
 .header {
 	display: flex;
 	height: 80px;
+	border-bottom: 1px solid #ececec;
+	align-items: center;
 }
 
 .container {
