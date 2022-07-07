@@ -3,14 +3,14 @@
     padding-bottom: 94px;
 }
 
-.client__list {
+.clients__list {
     display: flex;
     margin-top: 50px;
     justify-content: center;
     list-style: none;
 }
 
-.client__item {
+.clients__item {
     width: calc(100% / 6 - 30px);
     height: 92px;
 
@@ -20,7 +20,7 @@
 }
 
 
-.client__link {
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
 
 
 
-.client__icon {
+.clients__icon {
     fill: currentColor;
 
     &:hover,

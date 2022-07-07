@@ -71,7 +71,7 @@
     min-width: 448px;
 }
 
-.form__title {
+.modal__title {
     margin-bottom: 12px;
     font-family: $main-font;
     font-weight: 700;
@@ -225,7 +225,7 @@
     overflow: hidden;
 }
 
-.checkbox__icon {
+.form-checkbox__icon {
     display: inline-block;
     margin-left: 12px;
     width: 15px;
@@ -238,7 +238,7 @@
     transition: $anima;
 }
 
-.checkbox:checked+.checkbox__icon {
+.checkbox:checked+.form-checkbox__icon {
     transform: scale(1.2);
     border-color: transparent;
     background-color: $brand-color;

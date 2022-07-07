@@ -1,4 +1,4 @@
-.portfolio--section {
+.portfolio-page {
     padding: 94px 0;
 }
 
@@ -63,7 +63,7 @@
     margin: calc(-1 * $indent / 2);
 }
 
-.card-set__item {
+.card {
     margin: calc($indent / 2);
     flex-basis: calc((100% - $indent * $items) / $items);
     /* flex-basis: calc(100% / $items - $indent); */
@@ -80,12 +80,12 @@
 
 
 /*-------------------------- */
-.project__thumb {
+.card__thumb {
     position: relative;
     overflow: hidden;
 }
 
-.project__overlay {
+.card__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -98,7 +98,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project__text {
+.card__text {
     display: flex;
     height: 100%;
     padding-left: 24px;
@@ -115,14 +115,14 @@
     color: $accent-color;
 }
 
-.card-set__item:hover .project__overlay {
+.card:hover .card__overlay {
     transform: translateY(0);
     opacity: 1;
 }
 
 /*------------------------*/
 
-.project__wrapper {
+.card__wrapper {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
@@ -130,7 +130,7 @@
     border: 1px solid #eeeeee;
 }
 
-.project__title {
+.card__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -138,7 +138,7 @@
     color: $text-color;
 }
 
-.project__descr {
+.card__descr {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
