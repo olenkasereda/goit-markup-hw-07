@@ -93,8 +93,8 @@
     list-style: none;
 }
 
-.contacts__item:not(:first-child) {
-    margin-left: 50px;
+.contacts__item {
+    @include first-margin (left, 50px);
 }
 
 .contacts__link {

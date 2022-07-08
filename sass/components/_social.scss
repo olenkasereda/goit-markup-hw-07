@@ -38,6 +38,6 @@
 
 
 
-.social__item:not(:first-child) {
-    margin-left: 10px;
+.social__item {
+     @include first-margin (left, 10px); 
 }

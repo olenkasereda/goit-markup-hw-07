@@ -15,8 +15,8 @@
     list-style-type: none;
 }
 
-.filters__item:not(:first-child) {
-    margin-left: 8px;
+.filters__item {
+    @include first-margin (left, 8px);
 }
 
 .filters__button {

@@ -5,15 +5,13 @@
 
 .features {
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
     list-style-type: none;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-.features__item:not(:first-child) {
-    margin-left: 30px;
+.features__item {
+    @include first-margin (left, 30px);
 }
 
 .features__icon {

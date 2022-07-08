@@ -1,5 +1,5 @@
 .work {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .work__list,
@@ -15,9 +15,7 @@
 .work__item {
     position: relative;
 
-&:not(:first-child) {
-        margin-left: 30px;
-    }
+@include first-margin (left, 30px);
 }
 
 .work__desc {

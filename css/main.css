@@ -530,8 +530,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
   list-style-type: none;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -588,7 +586,7 @@ img {
 }
 
 .work {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .work__list,
